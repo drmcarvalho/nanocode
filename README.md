@@ -1,10 +1,11 @@
 # nanocode
 
-Minimal Claude Code alternative. Single Python file, zero dependencies, ~250 lines.
+Minimal Claude Code alternative. Single Python file, zero dependencies, for llamacpp local models.
 
 Built using Claude Code, then used to build itself.
 
-![screenshot](screenshot.png)
+<img width="1282" height="618" alt="image" src="https://github.com/user-attachments/assets/a6b1f689-ceb3-4252-b7f6-57a504921fa6" />
+
 
 ## Features
 
@@ -12,28 +13,18 @@ Built using Claude Code, then used to build itself.
 - Tools: `read`, `write`, `edit`, `glob`, `grep`, `bash`
 - Conversation history
 - Colored terminal output
+- Context window info/usage
 
 ## Usage
 
 ```bash
-export ANTHROPIC_API_KEY="your-key"
-python nanocode.py
-```
-
-### OpenRouter
-
-Use [OpenRouter](https://openrouter.ai) to access any model:
-
-```bash
-export OPENROUTER_API_KEY="your-key"
 python nanocode.py
 ```
 
 To use a different model:
 
 ```bash
-export OPENROUTER_API_KEY="your-key"
-export MODEL="openai/gpt-5.2"
+export MODEL="Qwen3.5-4B"
 python nanocode.py
 ```
 
