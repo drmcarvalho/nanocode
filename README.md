@@ -56,7 +56,3 @@ python nanocode.py
 
 ⏺ There's one Python file: nanocode.py
 ```
-
-## License
-
-MIT
